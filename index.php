@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <header>
+        <header class="container-fluid">
             <nav class="bg-danger fixed-top navbar navbar-dark navbar-expand-md">
                 <a class="navbar-brand" href="#">Bolos Caseiros</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,10 +31,12 @@
                     </ul>
                 </div>
             </nav>
+            <div class="bg-info cabecalho container-fluid mt-5 pb-5 pt-5 text-center">
+                <h1 class="text-white">Deliciosos Bolos Caseiros</h1>
+                <p>Trabalhamos com encomendas desde 2005!</p>
+            </div>
         </header>
-        <div class="container-fluid">
-            <h1>Bootstrap starter template</h1>
-        </div>
+        <main class="container-fluid"></main>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
