@@ -37,6 +37,23 @@
             </div>
         </header>
         <main class="container-fluid"></main>
+        <footer class="bg-success container-fluid">
+            <div class="row text-center">
+                <div class="col">
+                    <p>&copy;2021</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12 text-right"> 
+                    <p> Desenvolvido por: 
+                </div>
+                <div class="col-md-6 col-sm-12"> 
+                    <p> Michael Douglas Fernandes</p>
+                    <p>R.A.:&nbsp;20056973-5</p>
+                    <p>para curso de Sistemas para Internet na Unicesumar</p>
+                </div>
+            </div>
+        </footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
