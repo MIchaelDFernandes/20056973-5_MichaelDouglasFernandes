@@ -11,6 +11,8 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+        <?php include("dados/dados.php");?>
+        
         <header class="container-fluid">
             <nav class="bg-danger fixed-top navbar navbar-dark navbar-expand-md">
                 <a class="navbar-brand" href="index.php">Bolos Caseiros</a>
@@ -38,12 +40,12 @@
         <?php
             $pagina = isset( $_GET['acessando'] ) ? $_GET['acessando'] : '';
             if($pagina==''){
-                include ('home.php');}		
-            elseif(file_exists($pagina.'.php')){
-                include ($pagina.'.php');
+                include ('pages/home.php');}		
+            elseif(file_exists("pages/".$pagina.'.php')){
+                include ("pages/".$pagina.'.php');
             }
             else{ 
-                include ('home.php');}
+                include ('pages/home.php');}
         ?>
         </main>
         <footer class="bg-success container-fluid">
