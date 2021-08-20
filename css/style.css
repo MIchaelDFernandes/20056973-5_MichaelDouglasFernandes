@@ -6,3 +6,14 @@
 footer {
     color: #ffffff;
 }
+
+.quemSomos {
+    padding: 2% 10% 2% 10%;
+    text-align: justify;
+    background-color: #F5EEE7;
+}
+
+.quemSomos h2 {
+    color: #AC4843;
+   
+}
