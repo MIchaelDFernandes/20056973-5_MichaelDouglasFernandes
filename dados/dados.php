@@ -7,7 +7,7 @@ $bolos = [
 ];
 
 
-$descricoes = ["Laranja" => "Leite integral, farinha de trigo enriquecida com ferro e
+$ingredientes = ["Laranja" => "Leite integral, farinha de trigo enriquecida com ferro e
         ácido fólico, açúcar, ovo, gordura vegetal, laranja, fermentos químicos pirofosfato de sódio, 
         bicarbonato de sódio e fosfato monocálcico. CONTÉM GLÚTEN E LACTOSE. Alérgicos: contém leite, derivados 
         do trigo e ovo.", 

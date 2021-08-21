@@ -1,8 +1,9 @@
-<?php
+<div class="row ingredientes" >
+    <div class="col">
+        <h2><?= "Bolo Sabor ".$_GET["bolo"]?></h2>
+        <h3>Ingredientes</h3>
+        <p><?=$ingredientes[$_GET["bolo"]] ?></p>
+    </div>
+</div>
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 

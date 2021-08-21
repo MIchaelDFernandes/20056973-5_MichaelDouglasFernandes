@@ -3,11 +3,15 @@
     font-size: 1.4rem;
 }
 
+main {
+    background-color: #F5EEE7;
+}
+
 footer {
     color: #ffffff;
 }
 
-.quemSomos {
+.quemSomos{
     padding: 2% 10% 2% 10%;
     text-align: justify;
     background-color: #F5EEE7;
@@ -16,4 +20,24 @@ footer {
 .quemSomos h2 {
     color: #AC4843;
    
+}
+
+.ingredientes{
+    padding: 2% 10% 2% 10%;
+}
+
+.ingredientes h2{
+    color: #AC4843;
+    text-align: center;
+}
+
+.ingredientes h3{
+    text-align: center;
+    background-color: #AC4843;
+    color: whitesmoke;
+    padding: 2% 0 2% 0;
+}
+
+.ingredientes p{
+    text-align: justify;
 }

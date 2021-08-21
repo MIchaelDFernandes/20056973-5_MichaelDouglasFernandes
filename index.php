@@ -25,7 +25,7 @@
                             <a class="nav-link" href="index.php?acessando=quemsomos">Quem Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php?acessando=contato">Contato</a>
+                            <a class="nav-link" href="index.php?acessando=contato">Contato & Localização</a>
                         </li>
                         
                     </ul>

@@ -5,7 +5,7 @@
     
     <div class="col-md-4 col-sm-12 produto">
         <a href=<?="index.php?acessando=produto&bolo=".$nome?>>
-            <img src=<?=$caminho?> alt="alt" width="100%"/>
+            <img src=<?=$caminho?> alt=<?="Bolo de ".$nome?> width="100%"/>
         </a>
     </div>
     <?php endforeach;?>
