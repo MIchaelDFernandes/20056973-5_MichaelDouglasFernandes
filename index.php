@@ -12,7 +12,6 @@
     </head>
     <body>
         <?php include("dados/dados.php");?>
-        
         <header class="container-fluid">
             <nav class="bg-danger fixed-top navbar navbar-dark navbar-expand-md">
                 <a class="navbar-brand" href="index.php">Bolos Caseiros</a>
@@ -27,17 +26,16 @@
                         <li class="nav-item">
                             <a class="nav-link" href="index.php?acessando=contato">Contato & Localização</a>
                         </li>
-                        
                     </ul>
                 </div>
             </nav>
-            <div class="bg-info cabecalho container-fluid mt-5 pb-5 pt-5 text-center">
-                <h1 class="text-white">Deliciosos Bolos Caseiros</h1>
+            <div class="cabecalho container-fluid mt-5 pb-5 pt-5 text-center">
+                <h1>Deliciosos Bolos Caseiros</h1>
                 <p>Trabalhamos com encomendas desde 2000!</p>
             </div>
         </header>
-        <main class="container-fluid">
-        <?php
+        <main class="container-fluid pb-4">
+            <?php
             $pagina = isset( $_GET['acessando'] ) ? $_GET['acessando'] : '';
             if($pagina==''){
                 include ('pages/home.php');}		
@@ -56,7 +54,7 @@
             </div>
             <div class="row">
                 <div class="border border-0 border-light col-md-6 col-sm-12 font-weight-bold text-center"> 
-                    <p> Desenvolvido por:   
+                    <p> Desenvolvido por:    
                 </div>
                 <div class="border-bottom-0 border-left-0 border-light border-top-0 col-md-6 col-sm-12"> 
                     <p> Michael Douglas Fernandes</p>

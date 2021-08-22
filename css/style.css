@@ -1,6 +1,21 @@
+.cabecalho {
+    background-color: blue;
+    background-image: url('../images/piquenique.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    
+}
+.cabecalho h1{
+    color: #AC4843;
+    font-size: 3.4rem;
+    font-weight: bold;
+}
 .cabecalho p {
     color: #ffffff;
+    font-weight: bold;
     font-size: 1.4rem;
+    font-size: 1.8rem
 }
 
 main {
@@ -11,7 +26,7 @@ footer {
     color: #ffffff;
 }
 
-.quemSomos{
+.quemSomos {
     padding: 2% 10% 2% 10%;
     text-align: justify;
     background-color: #F5EEE7;
@@ -19,33 +34,52 @@ footer {
 
 .quemSomos h2 {
     color: #AC4843;
-   
 }
 
-.ingredientes{
+.ingredientes {
     padding: 2% 10% 2% 10%;
 }
 
-.ingredientes h2{
+.ingredientes h2 {
     color: #AC4843;
     text-align: center;
 }
 
-.ingredientes h3{
+.ingredientes h3 {
     text-align: center;
     background-color: #AC4843;
     color: whitesmoke;
     padding: 2% 0 2% 0;
 }
 
-.ingredientes p{
+.ingredientes p {
     text-align: justify;
 }
 
-.contato h2{
+.contato h2 {
     color: #AC4843;
     text-align: center;
 }
-.contato p{
-    text-align: center
+
+.contato p {
+    text-align: center;
+}
+
+.produto-nome {
+    position: relative;
+    top: 0;
+    background-color: #AC4843;
+    height: 0;
+    visibility: hidden;
+    transition: height 0.4s;
+}
+
+.produto-nome h4 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.produto:hover .produto-nome {
+    visibility: visible;
+    height: 20%;
 }
