@@ -46,7 +46,7 @@
                 include ('pages/home.php');}
         ?>
         </main>
-        <footer class="bg-success container-fluid">
+        <footer class=" container-fluid">
             <div class="row text-center">
                 <div class="col">
                     <p>&copy;2021</p>
