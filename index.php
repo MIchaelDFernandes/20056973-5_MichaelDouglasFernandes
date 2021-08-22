@@ -33,7 +33,7 @@
             </nav>
             <div class="bg-info cabecalho container-fluid mt-5 pb-5 pt-5 text-center">
                 <h1 class="text-white">Deliciosos Bolos Caseiros</h1>
-                <p>Trabalhamos com encomendas desde 2005!</p>
+                <p>Trabalhamos com encomendas desde 2000!</p>
             </div>
         </header>
         <main class="container-fluid">

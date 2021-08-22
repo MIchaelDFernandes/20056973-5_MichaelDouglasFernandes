@@ -41,3 +41,11 @@ footer {
 .ingredientes p{
     text-align: justify;
 }
+
+.contato h2{
+    color: #AC4843;
+    text-align: center;
+}
+.contato p{
+    text-align: center
+}
